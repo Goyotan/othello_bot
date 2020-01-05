@@ -18,10 +18,10 @@ systemctl --user start othello.service
 
 ```
 + OthelloArenaPython/
---- AuthCheck.py
---- OthelloAction.py
---- OthelloLogic.py
---- Play.py
---- TestPlay.py
---- main.py <- SET HERE
+|-- AuthCheck.py
+|-- OthelloAction.py
+|-- OthelloLogic.py
+|-- Play.py
+|-- TestPlay.py
+|-- main.py <- SET HERE
 ```

@@ -1,0 +1,10 @@
+[Unit]
+Description = OTHELLO_BOY
+
+[Service]
+#ExecStart = /home/<USER>/<YOUR_OTHELLO_DIR>/main.py
+ExecStart = 
+Restart = always
+
+[Install]
+WantedBy=default.target
